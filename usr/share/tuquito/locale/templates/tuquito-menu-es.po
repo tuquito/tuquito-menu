@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-28 01:29-0300\n"
+"POT-Creation-Date: 2010-05-28 02:12-0300\n"
 "PO-Revision-Date: 2010-05-27 23:56-0300\n"
 "Last-Translator: Mario Colque <root@tuquito.org.ar>\n"
 "Language-Team: Argentinian\n"
@@ -253,68 +253,64 @@ msgid "Toggle Default Items:"
 msgstr "Activar items por defecto:"
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:96
-msgid "Software Manager"
-msgstr "Centro de software"
-
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:97
 msgid "Package Manager"
 msgstr "Gestor de paquetes"
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:98
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:97
 #: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:142
 msgid "Control Center"
 msgstr "Centro de control"
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:99
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:98
 #: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:149
 msgid "Terminal"
 msgstr "Terminal"
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:100
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:99
 #: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:156
 msgid "Lock Screen"
 msgstr "Bloquear pantalla"
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:101
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:100
 msgid "Log Out"
 msgstr "Cerrar sesión"
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:102
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:101
 #: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:170
 msgid "Quit"
 msgstr "Salir"
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:104
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:103
 msgid "Edit Place"
 msgstr "Editar lugar"
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:105
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:104
 msgid "New Place"
 msgstr "Nuevo lugar"
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:106
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:105
 msgid "Select a folder"
 msgstr "Seleccione una carpeta"
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:108
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:107
 msgid "Keyboard shortcut:"
 msgstr "Atajo de teclado:"
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:234
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:227
 msgid "Name"
 msgstr "Nombre"
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:235
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:228
 msgid "Path"
 msgstr "Ruta"
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:334
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:368
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:327
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:361
 msgid "Name:"
 msgstr "Nombre:"
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:335
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:369
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:328
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:362
 msgid "Path:"
 msgstr "Ruta:"
 
@@ -479,6 +475,9 @@ msgstr "Ver archivos eliminados"
 #: usr/lib/tuquito/tuquito-menu/plugins/places.py:207
 msgid "Empty trash"
 msgstr "Vaciar la papelera"
+
+#~ msgid "Software Manager"
+#~ msgstr "Centro de software"
 
 #~ msgid "Browse and install available software"
 #~ msgstr "Buscar e instalar aplicaciones disponibles"

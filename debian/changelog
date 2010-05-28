@@ -1,3 +1,9 @@
+tuquito-menu (5.0.1-3) lucid; urgency=low
+
+  * Opciones de software manager eliminadas
+
+ -- Mario Colque <mario@tuquito.org.ar>  Fri, 28 May 2010 02:16:33 -0300
+
 tuquito-menu (5.0.1-2) lucid; urgency=low
 
   * Correcciones en traducciones

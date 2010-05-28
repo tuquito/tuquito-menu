@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-28 01:29-0300\n"
+"POT-Creation-Date: 2010-05-28 02:12-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -253,68 +253,64 @@ msgid "Toggle Default Items:"
 msgstr ""
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:96
-msgid "Software Manager"
-msgstr ""
-
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:97
 msgid "Package Manager"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:98
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:97
 #: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:142
 msgid "Control Center"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:99
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:98
 #: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:149
 msgid "Terminal"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:100
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:99
 #: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:156
 msgid "Lock Screen"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:101
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:100
 msgid "Log Out"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:102
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:101
 #: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:170
 msgid "Quit"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:104
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:103
 msgid "Edit Place"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:105
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:104
 msgid "New Place"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:106
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:105
 msgid "Select a folder"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:108
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:107
 msgid "Keyboard shortcut:"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:234
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:227
 msgid "Name"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:235
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:228
 msgid "Path"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:334
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:368
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:327
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:361
 msgid "Name:"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:335
-#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:369
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:328
+#: usr/lib/tuquito/tuquito-menu/MenuConfig.py:362
 msgid "Path:"
 msgstr ""
 

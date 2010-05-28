@@ -93,7 +93,6 @@ class MenuConfig( object ):
 		wTree.get_widget("allowscrollbarcheckbutton1").set_label(_("Allow Scrollbar"))
 		wTree.get_widget("systemHeightEntryLabel").set_text(_("Height:"))
 		wTree.get_widget("defaultItemsFrameLabel").set_text(_("Toggle Default Items:"))
-		wTree.get_widget("softwaremanagercheckbutton").set_label(_("Software Manager"))
 		wTree.get_widget("packagemanagercheckbutton").set_label(_("Package Manager"))
 		wTree.get_widget("controlcentercheckbutton").set_label(_("Control Center"))
 		wTree.get_widget("terminalcheckbutton").set_label(_("Terminal"))
@@ -145,7 +144,6 @@ class MenuConfig( object ):
 		if (self.allowPlacesScrollbarToggle.get_active() == False):
 			self.placesHeightButton.set_sensitive(False)
 		self.allowPlacesScrollbarToggle.connect("toggled", self.togglePlacesHeightEnabled )
-		self.softwareManagerToggle = wTree.get_widget( "softwaremanagercheckbutton" )
 		self.packageManagerToggle = wTree.get_widget( "packagemanagercheckbutton" )
 		self.controlCenterToggle = wTree.get_widget( "controlcentercheckbutton" )
 		self.packageManagerToggle = wTree.get_widget( "packagemanagercheckbutton" )
@@ -157,10 +155,6 @@ class MenuConfig( object ):
 		self.systemHeightButton = wTree.get_widget( "systemHeightSpinButton" ) 
 		if (self.allowSystemScrollbarToggle.get_active() == False): self.systemHeightButton.set_sensitive(False)
 		self.allowSystemScrollbarToggle.connect("toggled", self.toggleSystemHeightEnabled )
-		if os.path.exists("/usr/lib/linuxmint/mintInstall/icon.svg"):
-			wTree.get_widget( "softwaremanagercheckbutton" ).show()
-		else:
-			wTree.get_widget( "softwaremanagercheckbutton" ).hide()
 
 		wTree.get_widget( "closeButton" ).connect("clicked", gtk.main_quit )
 
@@ -208,7 +202,6 @@ class MenuConfig( object ):
 		self.bindGconfValueToWidget( self.gconfPlaces, "int", "height", self.placesHeightButton, "value-changed", self.placesHeightButton.set_value, self.placesHeightButton.get_value_as_int )
 		self.bindGconfValueToWidget( self.gconfPlaces, "bool", "allowScrollbar", self.allowPlacesScrollbarToggle, "toggled", self.allowPlacesScrollbarToggle.set_active, self.allowPlacesScrollbarToggle.get_active )
 		
-		self.bindGconfValueToWidget( self.gconfSystem, "bool", "show_software_manager", self.softwareManagerToggle, "toggled", self.softwareManagerToggle.set_active, self.softwareManagerToggle.get_active )
 		self.bindGconfValueToWidget( self.gconfSystem, "bool", "show_package_manager", self.packageManagerToggle, "toggled", self.packageManagerToggle.set_active, self.packageManagerToggle.get_active )
 		self.bindGconfValueToWidget( self.gconfSystem, "bool", "show_control_center", self.controlCenterToggle, "toggled", self.controlCenterToggle.set_active, self.controlCenterToggle.get_active )
 		self.bindGconfValueToWidget( self.gconfSystem, "bool", "show_terminal", self.terminalToggle, "toggled", self.terminalToggle.set_active, self.terminalToggle.get_active )
