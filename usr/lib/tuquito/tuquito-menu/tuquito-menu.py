@@ -20,7 +20,7 @@ except Exception, e:
 	sys.exit( 1 )
 
 global mbindkey
-# Load the key binding lib (developped by deskbar-applet, copied into mintMenu so we don't end up with an unnecessary dependency)
+# Load the key binding lib (developped by deskbar-applet, copied into tuquito-menu so we don't end up with an unnecessary dependency)
 try:
 	from deskbar.core.keybinder import tomboy_keybinder_bind as bind_key
 except Exception, cause:
@@ -264,7 +264,7 @@ class MainWindow( object ):
 					if X.pluginclass.__init__.func_code.co_argcount == 1:
 						MyPlugin = X.pluginclass()
 					else:
-						# pass mintMenu and togglebutton instance so that the plugin can use it
+						# pass tuquito-menu and togglebutton instance so that the plugin can use it
 						MyPlugin = X.pluginclass( self, self.toggle )
 
 					if not MyPlugin.icon:
@@ -670,11 +670,11 @@ class MenuWin( object ):
 
 
 	def getGconfEntries( self, *args, **kargs ):
-		self.hideIcon	=  self.gconf.get( "bool", "hide_applet_icon", False )
-		self.buttonText =  self.gconf.get( "string", "applet_text", "Menu" )
-		self.hotkeyText =  self.gconf.get( "string", "hot_key", "<Control>Super_L" )
-		self.buttonIcon =  self.gconf.get( "string", "applet_icon", ICON )
-		self.setIconSize( self.gconf.get( "int", "applet_icon_size", 2 ) )
+		self.hideIcon	=  self.gconf.get( "bool", "hide_applet_icon", False)
+		self.buttonText =  self.gconf.get( "string", "applet_text", _("Menu"))
+		self.hotkeyText =  self.gconf.get( "string", "hot_key", "<Control>Super_L")
+		self.buttonIcon =  self.gconf.get( "string", "applet_icon", ICON)
+		self.setIconSize( self.gconf.get( "int", "applet_icon_size", 2 ))
 
 	def setIconSize( self, icon_size):
 		if icon_size >= 4:
@@ -799,7 +799,7 @@ class MenuWin( object ):
 		about.show()
 
 	def showPreferences( self, uicomponent, verb ):
-#		Execute( "gconf-editor /apps/mintMenu" )
+		#Execute( "gconf-editor /apps/tuquito-menu" )
 		Execute( os.path.join( PATH, "MenuConfig.py" ) )
 
 	def showMenuEditor( self, uicomponent, verb ):

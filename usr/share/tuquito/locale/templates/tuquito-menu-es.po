@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-27 23:03-0300\n"
+"POT-Creation-Date: 2010-05-28 01:29-0300\n"
 "PO-Revision-Date: 2010-05-27 23:56-0300\n"
 "Last-Translator: Mario Colque <root@tuquito.org.ar>\n"
 "Language-Team: Argentinian\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: usr/lib/tuquito/tuquito-menu/tuquito-menu.py:43
+#: usr/lib/tuquito/tuquito-menu/tuquito-menu.py:674
 msgid "Menu"
 msgstr "Menú"
 
@@ -131,7 +132,7 @@ msgstr "pixeles"
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:56
 msgid "Opacity:"
-msgstr "opacidad:"
+msgstr "Opacidad:"
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:59
 msgid "Button text:"
@@ -197,7 +198,7 @@ msgstr "Comando de búsquedas:"
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:81
 #: usr/lib/tuquito/tuquito-menu/plugins/places.py:40
 msgid "Places"
-msgstr "Lugares:"
+msgstr "Lugares"
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:82
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:93
@@ -252,27 +253,25 @@ msgid "Toggle Default Items:"
 msgstr "Activar items por defecto:"
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:96
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:134
 msgid "Software Manager"
 msgstr "Centro de software"
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:97
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:141
 msgid "Package Manager"
 msgstr "Gestor de paquetes"
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:98
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:148
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:142
 msgid "Control Center"
 msgstr "Centro de control"
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:99
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:155
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:149
 msgid "Terminal"
 msgstr "Terminal"
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:100
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:162
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:156
 msgid "Lock Screen"
 msgstr "Bloquear pantalla"
 
@@ -281,7 +280,7 @@ msgid "Log Out"
 msgstr "Cerrar sesión"
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:102
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:176
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:170
 msgid "Quit"
 msgstr "Salir"
 
@@ -421,35 +420,36 @@ msgstr "Todo"
 msgid "Show all applications"
 msgstr "Mostrar todas las aplicaciones"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:138
-msgid "Browse and install available software"
-msgstr "Buscar e instalar aplicaciones disponibles"
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:135
+#, fuzzy
+msgid "Software Center"
+msgstr "Centro de software"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:145
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:139
 msgid "Install, remove and upgrade software packages"
 msgstr "Instalar, actualizar y eliminar paquetes de software"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:152
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:146
 msgid "Configure your system"
 msgstr "Configure su sistema"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:159
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:153
 msgid "Use the command line"
 msgstr "Usar la línea de comandos"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:166
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:160
 msgid "Requires password to unlock"
 msgstr "Requiere contraseña para desbloquear"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:169
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:163
 msgid "Logout"
 msgstr "Cerrar sesión"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:173
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:167
 msgid "Log out or switch user"
 msgstr "Cerrar sesión o cambiar de usuario"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:180
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:174
 msgid "Shutdown, restart, suspend or hibernate"
 msgstr "Apagar, reiniciar, suspender o hibernar"
 
@@ -466,11 +466,11 @@ msgstr "Abra su carpeta personal"
 
 #: usr/lib/tuquito/tuquito-menu/plugins/places.py:163
 msgid "Browse bookmarked and local network locations"
-msgstr ""
+msgstr "Examina los lugares locales y remotos marcados"
 
 #: usr/lib/tuquito/tuquito-menu/plugins/places.py:183
 msgid "Browse items placed on the desktop"
-msgstr "Ver items puestos en el escritorio"
+msgstr "Abrir los contenidos de su escritorio en una carpeta"
 
 #: usr/lib/tuquito/tuquito-menu/plugins/places.py:192
 msgid "Browse deleted files"
@@ -479,3 +479,6 @@ msgstr "Ver archivos eliminados"
 #: usr/lib/tuquito/tuquito-menu/plugins/places.py:207
 msgid "Empty trash"
 msgstr "Vaciar la papelera"
+
+#~ msgid "Browse and install available software"
+#~ msgstr "Buscar e instalar aplicaciones disponibles"

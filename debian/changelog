@@ -1,3 +1,16 @@
+tuquito-menu (5.0.1-2) lucid; urgency=low
+
+  * Correcciones en traducciones
+  * Algunas funciones no utilizadas eliminadas
+
+ -- Mario Colque <mario@tuquito.org.ar>  Fri, 28 May 2010 01:53:52 -0300
+
+tuquito-menu (5.0.1-1) lucid; urgency=low
+
+  * Cambio synaptic por software-center
+
+ -- Mario Colque <colkito@colkito-desktop>  Fri, 28 May 2010 00:27:35 -0300
+
 tuquito-menu (5.0.1) lucid; urgency=low
 
   * Agregado traducciones español

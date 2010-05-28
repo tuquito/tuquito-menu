@@ -127,19 +127,13 @@ class pluginclass( object ):
 			child.destroy()
 
 	#Add standard items
-	def do_standard_items( self ):		
+	def do_standard_items(self):
+		if (self.showSoftwareManager == True):
+			print "showSoftwareManager"
 
-		if ( self.showSoftwareManager == True ):
-			if os.path.exists("/usr/lib/linuxmint/mintInstall/icon.svg"):
-				Button1 = easyButton( "/usr/lib/linuxmint/mintInstall/icon.svg", self.iconsize, [_("Software Manager")], -1, -1 )
-				Button1.connect( "clicked", self.ButtonClicked, "mintinstall" )
-				Button1.show()
-				self.systemBtnHolder.pack_start( Button1, False, False )
-				self.MenuWin.setTooltip( Button1, _("Browse and install available software") )
-
-		if ( self.showPackageManager == True ):
-			Button2 = easyButton( "synaptic", self.iconsize, [_("Package Manager")], -1, -1 )
-			Button2.connect( "clicked", self.ButtonClicked, "gksu /usr/sbin/synaptic" )
+		if (self.showPackageManager == True):
+			Button2 = easyButton( "softwarecenter", self.iconsize, [_("Software Center")], -1, -1 )
+			Button2.connect( "clicked", self.ButtonClicked, "/usr/bin/software-center" )
 			Button2.show()
 			self.systemBtnHolder.pack_start( Button2, False, False )
 			self.MenuWin.setTooltip( Button2, _("Install, remove and upgrade software packages") )
@@ -186,5 +180,3 @@ class pluginclass( object ):
 
 	def do_plugin( self ):
 		   self.do_standard_items()
-
-

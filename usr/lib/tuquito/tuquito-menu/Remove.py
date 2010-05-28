@@ -24,7 +24,7 @@ from subprocess import Popen, PIPE
 gtk.gdk.threads_init()
 
 # i18n
-gettext.install('tuquito', '/usr/share/tuquito/locale')
+gettext.install('tuquito-menu', '/usr/share/tuquito/locale')
 
 class RemoveExecuter(threading.Thread):
 	def __init__(self, window_id, package):

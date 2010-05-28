@@ -21,7 +21,7 @@ PATH = os.path.abspath( os.path.dirname( sys.argv[0] ) )
 sys.path.append( os.path.join( PATH , "plugins") )
 
 # i18n
-gettext.install('tuquito', '/usr/share/tuquito/locale')
+gettext.install('tuquito-menu', '/usr/share/tuquito/locale')
 
 from easybuttons import iconManager
 from easygconf import EasyGConf
