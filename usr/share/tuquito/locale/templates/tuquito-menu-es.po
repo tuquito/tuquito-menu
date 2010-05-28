@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-28 02:12-0300\n"
+"POT-Creation-Date: 2010-05-28 02:39-0300\n"
 "PO-Revision-Date: 2010-05-27 23:56-0300\n"
 "Last-Translator: Mario Colque <root@tuquito.org.ar>\n"
 "Language-Team: Argentinian\n"
@@ -69,16 +69,16 @@ msgstr ""
 msgid "Do you want to remove this menu entry?"
 msgstr "¿Desea eliminar esta entrada de menú?"
 
-#: usr/lib/tuquito/tuquito-menu/Remove.py:107
+#: usr/lib/tuquito/tuquito-menu/Remove.py:106
 #, python-format
 msgid "Remove %s?"
-msgstr "Eliminar %s?"
+msgstr "¿Eliminar %s?"
 
-#: usr/lib/tuquito/tuquito-menu/Remove.py:110
+#: usr/lib/tuquito/tuquito-menu/Remove.py:109
 msgid "The following packages will be removed:"
 msgstr "Los siguientes paquetes pueden ser eliminados:"
 
-#: usr/lib/tuquito/tuquito-menu/Remove.py:113
+#: usr/lib/tuquito/tuquito-menu/Remove.py:112
 msgid "Packages to be removed"
 msgstr "Paquetes eliminados"
 
@@ -475,9 +475,3 @@ msgstr "Ver archivos eliminados"
 #: usr/lib/tuquito/tuquito-menu/plugins/places.py:207
 msgid "Empty trash"
 msgstr "Vaciar la papelera"
-
-#~ msgid "Software Manager"
-#~ msgstr "Centro de software"
-
-#~ msgid "Browse and install available software"
-#~ msgstr "Buscar e instalar aplicaciones disponibles"

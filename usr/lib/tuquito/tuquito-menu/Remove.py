@@ -48,11 +48,11 @@ class RemoveExecuter(threading.Thread):
 		cmd.append("\"" + _("Application removed successfully") + "\"")
 		f = tempfile.NamedTemporaryFile()
 		for pkg in removePackages:
-		        f.write("%s\tdeinstall\n" % pkg)
-		    cmd.append("--set-selections-file")
-		    cmd.append("%s" % f.name)
-		    f.flush()
-		    comnd = Popen(' '.join(cmd), shell=True)
+			f.write("%s\tdeinstall\n" % pkg)
+			cmd.append("--set-selections-file")
+			cmd.append("%s" % f.name)
+			f.flush()
+			comnd = Popen(' '.join(cmd), shell=True)
 		returnCode = comnd.wait()
 		f.close()
 		gtk.main_quit()
@@ -64,7 +64,7 @@ class RemoveWindow:
 		#Set the Glade file
 		self.gladefile = "/usr/lib/tuquito/tuquito-menu/Remove.glade"
 		wTree = gtk.glade.XML(self.gladefile,"main_window")
-		wTree.get_widget("main_window").set_icon_from_file("/usr/lib/tuquito/tuquito-menu/tuquito-logo.svg")
+		wTree.get_widget("main_window").set_icon_from_file("/usr/lib/tuquito/tuquito-menu/logo.png")
 		wTree.get_widget("main_window").set_title("")
 		wTree.get_widget("main_window").connect("destroy", self.giveUp)
 		# Get the window socket (needed for synaptic later on)
@@ -94,15 +94,14 @@ class RemoveWindow:
 			warnDlg.vbox.pack_start(lblInfo)
 			label.show()
 			lblInfo.show()
-
-		response = warnDlg.run()
-		if response == gtk.RESPONSE_OK :
-			print "removing " + self.desktopFile + "*.desktop"
-			os.system("rm -f " + self.desktopFile)
-			os.system("rm -f " + self.desktopFile + "*.desktop")
-		warnDlg.destroy()
-		gtk.main_quit()
-		sys.exit(0)		
+			response = warnDlg.run()
+			if response == gtk.RESPONSE_OK :
+				print "removing " + self.desktopFile + "*.desktop"
+				os.system("rm -f " + self.desktopFile)
+				os.system("rm -f " + self.desktopFile + "*.desktop")
+			warnDlg.destroy()
+			gtk.main_quit()
+			sys.exit(0)		
 
 		wTree.get_widget("txt_name").set_text("<big><b>" + _("Remove %s?") % package + "</b></big>")
 		wTree.get_widget("txt_name").set_use_markup(True)
@@ -125,9 +124,9 @@ class RemoveWindow:
 		treeview.set_model(model)
 		treeview.show()		
 
-		    dic = {"on_remove_button_clicked" : (self.MainButtonClicked, window_id, package, wTree),
+		dic = {"on_remove_button_clicked" : (self.MainButtonClicked, window_id, package, wTree),
 		           "on_cancel_button_clicked" : (self.giveUp) }
-		    wTree.signal_autoconnect(dic)
+		wTree.signal_autoconnect(dic)
 
 		wTree.get_widget("main_window").show()
 
