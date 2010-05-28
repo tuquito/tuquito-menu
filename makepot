@@ -1,0 +1,3 @@
+#!/bin/bash
+
+xgettext --language=Python --keyword=_ --output=tuquito-menu.pot usr/lib/tuquito/tuquito-menu/tuquito-menu.py usr/lib/tuquito/tuquito-menu/Remove.py usr/lib/tuquito/tuquito-menu/MenuConfig.py usr/lib/tuquito/tuquito-menu/plugins/recent.py usr/lib/tuquito/tuquito-menu/plugins/applications.py usr/lib/tuquito/tuquito-menu/plugins/system_management.py usr/lib/tuquito/tuquito-menu/plugins/places.py

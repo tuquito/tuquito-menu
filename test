@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo rm -rf /usr/lib/tuquito/tuquito-menu
+sudo cp -R usr /
+tuquitomenu

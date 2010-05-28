@@ -1,0 +1,11 @@
+#!/usr/bin/python
+
+import sys, os
+
+if len(sys.argv) > 1:
+	if (sys.argv[1] == 'clean'):
+		print 'All Tuquito Menu settings are now restored to default'
+		os.system('gconftool-2 --recursive-unset /apps/tuquito-menu')
+		os.system('rm -rf ~/.tuquito/tuquito-menu')
+else:
+	os.system('/usr/lib/tuquito/tuquito-menu/tuquito-menu.py run-in-window')
