@@ -225,7 +225,7 @@ class pluginclass( object ):
 		self.applicationsScrolledWindow = self.wTree.get_widget( "applicationsScrolledWindow" )		
 
 		#i18n
-		self.wTree.get_widget("searchLabel").set_text("<span weight='bold'>" + _("Filter:") + "</span>")
+		self.wTree.get_widget("searchLabel").set_text("<span weight='bold'>" + _("Search:") + "</span>")
 		self.wTree.get_widget("searchLabel").set_use_markup(True)
 		self.wTree.get_widget("label6").set_text("<span weight='bold'>" + _("Favorites") + "</span>")
 		self.wTree.get_widget("label6").set_use_markup(True)

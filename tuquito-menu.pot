@@ -323,7 +323,7 @@ msgid "Recent documents"
 msgstr ""
 
 #: usr/lib/tuquito/tuquito-menu/plugins/applications.py:228
-msgid "Filter:"
+msgid "Search:"
 msgstr ""
 
 #: usr/lib/tuquito/tuquito-menu/plugins/applications.py:232
