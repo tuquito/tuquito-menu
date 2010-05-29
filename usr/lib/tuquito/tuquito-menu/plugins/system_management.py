@@ -18,19 +18,16 @@ gettext.install("tuquito-menu", "/usr/share/tuquito/locale")
 class pluginclass( object ):
 	
 	def __init__( self, MenuWin, toggleButton ):
-		
 		self.MenuWin = MenuWin
 		self.toggleButton = toggleButton
-		
+
 		# Read GLADE file
 		gladefile 				= os.path.join( os.path.dirname( __file__ ), "system_management.glade" )
 		wTree 					= gtk.glade.XML( gladefile, "mainWindow" )
 		self.systemBtnHolder	= wTree.get_widget( "system_button_holder" )
 		self.editableBtnHolder 	= wTree.get_widget( "editable_button_holder" )
 		self.scrolledWindow = wTree.get_widget( "scrolledwindow2" )
-
 		# These properties are NECESSARY to maintain consistency
-
 		# Set 'window' property for the plugin (Must be the root widget)
 		self.window = wTree.get_widget( "mainWindow" )
 
@@ -51,7 +48,6 @@ class pluginclass( object ):
 		self.gconf.notifyAdd( "show_lock_screen", self.RegenPlugin )
 		self.gconf.notifyAdd( "show_logout", self.RegenPlugin )
 		self.gconf.notifyAdd( "show_package_manager", self.RegenPlugin )
-		self.gconf.notifyAdd( "show_software_manager", self.RegenPlugin )
 		self.gconf.notifyAdd( "show_terminal", self.RegenPlugin )
 		self.gconf.notifyAdd( "show_quit", self.RegenPlugin )
 		self.gconf.notifyAdd( "allowScrollbar", self.RegenPlugin )
@@ -90,7 +86,6 @@ class pluginclass( object ):
 		self.do_standard_items()
 
 	def GetGconfEntries( self ):
-
 		self.width = self.gconf.get( "int", "width", 200 )
 		self.allowScrollbar = self.gconf.get( "bool", "allowScrollbar", False)
 		self.scrolledWindow.set_policy( gtk.POLICY_AUTOMATIC, gtk.POLICY_AUTOMATIC )
@@ -104,7 +99,6 @@ class pluginclass( object ):
 
 		# Check toggles
 
-		self.showSoftwareManager = self.gconf.get( "bool", "show_software_manager", True )
 		self.showPackageManager = self.gconf.get( "bool", "show_package_manager", True )
 		self.showControlCenter = self.gconf.get( "bool", "show_control_center", True )
 		self.showTerminal = self.gconf.get( "bool", "show_terminal", True )
@@ -128,9 +122,6 @@ class pluginclass( object ):
 
 	#Add standard items
 	def do_standard_items(self):
-		if (self.showSoftwareManager == True):
-			print "showSoftwareManager"
-
 		if (self.showPackageManager == True):
 			Button2 = easyButton( "softwarecenter", self.iconsize, [_("Software Center")], -1, -1 )
 			Button2.connect( "clicked", self.ButtonClicked, "/usr/bin/software-center" )

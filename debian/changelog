@@ -1,3 +1,11 @@
+tuquito-menu (5.0.1-5) lucid; urgency=low
+
+  * Adaptación para centro de software de Tuquito
+  * Corrección en traducciones
+  * Corrección dependencias de librerías
+
+ -- Mario Colque <mario@tuquito.org.ar>  Sat, 29 May 2010 13:28:54 -0300
+
 tuquito-menu (5.0.1-4) lucid; urgency=low
 
   * correccion en funcion desinstalar

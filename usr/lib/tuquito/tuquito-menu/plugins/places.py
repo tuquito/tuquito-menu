@@ -168,10 +168,9 @@ class pluginclass( object ):
 			try:
 				import sys
 				sys.path.append('/usr/lib/tuquito/common')
-				from configobj import ConfigObj
-				config = ConfigObj(home + "/.config/user-dirs.dirs")
-				tmpdesktopDir = config['XDG_DESKTOP_DIR']
-				tmpdesktopDir = commands.getoutput("echo " + tmpdesktopDir)			
+				config = commands.getoutput('grep "XDG_DESKTOP_DIR" .config/user-dirs.dirs')
+				config = config.split('"')
+				tmpdesktopDir = commands.getoutput("echo " + config[1])
 				if os.path.exists(tmpdesktopDir):
 					desktopDir = tmpdesktopDir
 			except Exception, detail:

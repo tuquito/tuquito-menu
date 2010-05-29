@@ -820,12 +820,11 @@ class pluginclass( object ):
 		try:
 			# Determine where the Desktop folder is (could be localized)
 			import sys, commands			
-			sys.path.append('/usr/lib/tuquito/common')
-			from configobj import ConfigObj
-			config = ConfigObj(home + "/.config/user-dirs.dirs")			
 			desktopDir = home + "/Desktop"
-			tmpdesktopDir = config['XDG_DESKTOP_DIR']
-			tmpdesktopDir = commands.getoutput("echo " + tmpdesktopDir)			
+			sys.path.append('/usr/lib/tuquito/common')
+			config = commands.getoutput('grep "XDG_DESKTOP_DIR" .config/user-dirs.dirs')
+			config = config.split('"')
+			tmpdesktopDir = commands.getoutput("echo " + config[1])
 			if os.path.exists(tmpdesktopDir):
 				desktopDir = tmpdesktopDir
 			# Copy the desktop file to the desktop

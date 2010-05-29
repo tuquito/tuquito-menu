@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 5.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-28 02:39-0300\n"
+"POT-Creation-Date: 2010-05-29 13:38-0300\n"
 "PO-Revision-Date: 2010-05-27 23:56-0300\n"
 "Last-Translator: Mario Colque <root@tuquito.org.ar>\n"
 "Language-Team: Argentinian\n"
@@ -230,12 +230,12 @@ msgid "Network"
 msgstr "Red"
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:88
-#: usr/lib/tuquito/tuquito-menu/plugins/places.py:179
+#: usr/lib/tuquito/tuquito-menu/plugins/places.py:178
 msgid "Desktop"
 msgstr "Escritorio"
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:89
-#: usr/lib/tuquito/tuquito-menu/plugins/places.py:186
+#: usr/lib/tuquito/tuquito-menu/plugins/places.py:185
 msgid "Trash"
 msgstr "Papelera"
 
@@ -244,7 +244,7 @@ msgid "Custom Places:"
 msgstr "Lugares personalizados:"
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:92
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:38
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:35
 msgid "System"
 msgstr "Sistema"
 
@@ -257,17 +257,17 @@ msgid "Package Manager"
 msgstr "Gestor de paquetes"
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:97
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:142
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:133
 msgid "Control Center"
 msgstr "Centro de control"
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:98
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:149
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:140
 msgid "Terminal"
 msgstr "Terminal"
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:99
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:156
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:147
 msgid "Lock Screen"
 msgstr "Bloquear pantalla"
 
@@ -276,7 +276,7 @@ msgid "Log Out"
 msgstr "Cerrar sesión"
 
 #: usr/lib/tuquito/tuquito-menu/MenuConfig.py:101
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:170
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:161
 msgid "Quit"
 msgstr "Salir"
 
@@ -400,7 +400,7 @@ msgstr "Desinstalar"
 msgid "Delete from menu"
 msgstr "Eliminar del menú"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/applications.py:1225
+#: usr/lib/tuquito/tuquito-menu/plugins/applications.py:1224
 msgid ""
 "Couldn't save favorites. Check if you have write access to ~/.tuquito/"
 "tuquito-menu"
@@ -408,44 +408,43 @@ msgstr ""
 "No se pudo guardar los favoritos. Comprobar si tiene acceso de escritura a "
 "~/.tuquito/tuquito-menu"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/applications.py:1408
+#: usr/lib/tuquito/tuquito-menu/plugins/applications.py:1407
 msgid "All"
 msgstr "Todo"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/applications.py:1408
+#: usr/lib/tuquito/tuquito-menu/plugins/applications.py:1407
 msgid "Show all applications"
 msgstr "Mostrar todas las aplicaciones"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:135
-#, fuzzy
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:126
 msgid "Software Center"
 msgstr "Centro de software"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:139
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:130
 msgid "Install, remove and upgrade software packages"
 msgstr "Instalar, actualizar y eliminar paquetes de software"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:146
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:137
 msgid "Configure your system"
 msgstr "Configure su sistema"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:153
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:144
 msgid "Use the command line"
 msgstr "Usar la línea de comandos"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:160
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:151
 msgid "Requires password to unlock"
 msgstr "Requiere contraseña para desbloquear"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:163
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:154
 msgid "Logout"
 msgstr "Cerrar sesión"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:167
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:158
 msgid "Log out or switch user"
 msgstr "Cerrar sesión o cambiar de usuario"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:174
+#: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:165
 msgid "Shutdown, restart, suspend or hibernate"
 msgstr "Apagar, reiniciar, suspender o hibernar"
 
@@ -464,14 +463,14 @@ msgstr "Abra su carpeta personal"
 msgid "Browse bookmarked and local network locations"
 msgstr "Examina los lugares locales y remotos marcados"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/places.py:183
+#: usr/lib/tuquito/tuquito-menu/plugins/places.py:182
 msgid "Browse items placed on the desktop"
 msgstr "Abrir los contenidos de su escritorio en una carpeta"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/places.py:192
+#: usr/lib/tuquito/tuquito-menu/plugins/places.py:191
 msgid "Browse deleted files"
 msgstr "Ver archivos eliminados"
 
-#: usr/lib/tuquito/tuquito-menu/plugins/places.py:207
+#: usr/lib/tuquito/tuquito-menu/plugins/places.py:206
 msgid "Empty trash"
 msgstr "Vaciar la papelera"
