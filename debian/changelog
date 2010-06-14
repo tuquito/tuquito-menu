@@ -1,3 +1,9 @@
+tuquito-menu (5.0.1-7) lucid; urgency=low
+
+  * arreglo en directorios po
+
+ -- Mario Colque <mario@tuquito.org.ar>  Mon, 14 Jun 2010 19:52:39 -0300
+
 tuquito-menu (5.0.1-6) lucid; urgency=low
 
   * agregadas las traducciones es, pt
