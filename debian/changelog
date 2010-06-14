@@ -1,3 +1,9 @@
+tuquito-menu (5.0.1-6) lucid; urgency=low
+
+  * agregadas las traducciones es, pt
+
+ -- Mario Colque <mario@tuquito.org.ar>  Mon, 14 Jun 2010 14:20:07 -0300
+
 tuquito-menu (5.0.1-5) lucid; urgency=low
 
   * Adaptación para centro de software de Tuquito
