@@ -131,7 +131,7 @@ class pluginclass( object ):
 
 		if ( self.showControlCenter == True ):
 			Button3 = easyButton( "gtk-preferences", self.iconsize, [_("Control Center")], -1, -1 )
-			Button3.connect( "clicked", self.ButtonClicked, "gnome-control-center" )
+			Button3.connect( "clicked", self.ButtonClicked, "tuquito-control-center" )
 			Button3.show()
 			self.systemBtnHolder.pack_start( Button3, False, False )
 			self.MenuWin.setTooltip( Button3, _("Configure your system") )

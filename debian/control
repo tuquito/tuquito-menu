@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 
 Package: tuquito-menu
 Architecture: all
-Depends: python (>= 2.4), python (<< 3), python-gtk2, python-glade2, deskbar-applet, python-gmenu, python-gnomeapplet
+Depends: python (>= 2.4), python (<< 3), python-gtk2, python-glade2, deskbar-applet, python-gmenu, python-gnomeapplet, tuquito-control-center
 Description: Menú Avanzado para Gnome
- Uno de los más avanzados menues en Linux. Soporta filtrado, favoritos, desinstalacion fácil, autosessión, y varias características más. Basado en MintMenu
+ Uno de los más avanzados menues en Linux. Soporta filtrado, favoritos, desinstalacion fácil, autosessión, y varias características más. Basado en USP y MintMenu
  * Tuquito Team! -2010

@@ -1,3 +1,10 @@
+tuquito-menu (5.0.1-7.1) lucid; urgency=low
+
+  * Nuevos íconos de Menú agregados.
+  * Integración con Tuquito Control Center
+
+ -- Mario Colque <mario@tuquito.org.ar>  Tue, 22 Jun 2010 19:40:33 -0300
+
 tuquito-menu (5.0.1-7) lucid; urgency=low
 
   * arreglo en directorios po
