@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuquito-menu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-14 14:12-0300\n"
+"POT-Creation-Date: 2010-07-01 14:58-0300\n"
 "PO-Revision-Date: 2010-06-14 14:16-0300\n"
 "Last-Translator: Carlos Pessoa de Araújo <carlosfelipe@tuquito.org.ar>\n"
 "Language-Team: Portuguese\n"
@@ -405,8 +405,8 @@ msgid ""
 "Couldn't save favorites. Check if you have write access to ~/.tuquito/"
 "tuquito-menu"
 msgstr ""
-"Não foi possível salvar em favoritos. Verifique se você tem acesso de escrita a "
-"~/.tuquito/tuquito-menu"
+"Não foi possível salvar em favoritos. Verifique se você tem acesso de "
+"escrita a ~/.tuquito/tuquito-menu"
 
 #: usr/lib/tuquito/tuquito-menu/plugins/applications.py:1407
 msgid "All"
@@ -417,12 +417,12 @@ msgid "Show all applications"
 msgstr "Mostrar todos os aplicativos"
 
 #: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:126
-msgid "Software Center"
-msgstr "Central de Software"
+msgid "Software Manager"
+msgstr "Gerenciador de Aplicativos"
 
 #: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:130
-msgid "Install, remove and upgrade software packages"
-msgstr "Instalar, remover e atualizar pacotes"
+msgid "Install new applications"
+msgstr "Instalar novos aplicativos"
 
 #: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:137
 msgid "Configure your system"
@@ -452,8 +452,7 @@ msgstr "Desligar, reiniciar, suspender ou hibernar"
 msgid ""
 "Browse all local and remote disks and folders accessible from this computer"
 msgstr ""
-"Acessar todos os discos e pastas locais e remotos acessíveis deste "
-"computador"
+"Acessar todos os discos e pastas locais e remotos acessíveis deste computador"
 
 #: usr/lib/tuquito/tuquito-menu/plugins/places.py:156
 msgid "Open your personal folder"

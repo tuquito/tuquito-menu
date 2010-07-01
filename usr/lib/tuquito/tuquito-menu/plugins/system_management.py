@@ -123,11 +123,11 @@ class pluginclass( object ):
 	#Add standard items
 	def do_standard_items(self):
 		if (self.showPackageManager == True):
-			Button2 = easyButton( "softwarecenter", self.iconsize, [_("Software Center")], -1, -1 )
-			Button2.connect( "clicked", self.ButtonClicked, "/usr/bin/software-center" )
+			Button2 = easyButton( "softwarecenter", self.iconsize, [_("Software Manager")], -1, -1 )
+			Button2.connect( "clicked", self.ButtonClicked, "/usr/bin/tuquito-software-manager" )
 			Button2.show()
 			self.systemBtnHolder.pack_start( Button2, False, False )
-			self.MenuWin.setTooltip( Button2, _("Install, remove and upgrade software packages") )
+			self.MenuWin.setTooltip( Button2, _("Install new applications") )
 
 		if ( self.showControlCenter == True ):
 			Button3 = easyButton( "gtk-preferences", self.iconsize, [_("Control Center")], -1, -1 )

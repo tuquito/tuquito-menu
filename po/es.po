@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuquito-menu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-14 14:12-0300\n"
+"POT-Creation-Date: 2010-07-01 14:58-0300\n"
 "PO-Revision-Date: 2010-06-14 14:14-0300\n"
 "Last-Translator: Mario Colque <mario@tuquito.org.ar>\n"
 "Language-Team: Spanish\n"
@@ -417,12 +417,12 @@ msgid "Show all applications"
 msgstr "Mostrar todas las aplicaciones"
 
 #: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:126
-msgid "Software Center"
-msgstr "Centro de software"
+msgid "Software Manager"
+msgstr "Gestor de programas"
 
 #: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:130
-msgid "Install, remove and upgrade software packages"
-msgstr "Instalar, eliminar y actualizar los paquetes de software"
+msgid "Install new applications"
+msgstr "Instalar nuevas aplicaciones"
 
 #: usr/lib/tuquito/tuquito-menu/plugins/system_management.py:137
 msgid "Configure your system"
@@ -461,7 +461,9 @@ msgstr "Abrir su carpeta personal"
 
 #: usr/lib/tuquito/tuquito-menu/plugins/places.py:163
 msgid "Browse bookmarked and local network locations"
-msgstr "Examinar todos los discos remotos, locales y carpetas accesibles desde este equipo"
+msgstr ""
+"Examinar todos los discos remotos, locales y carpetas accesibles desde este "
+"equipo"
 
 #: usr/lib/tuquito/tuquito-menu/plugins/places.py:182
 msgid "Browse items placed on the desktop"
